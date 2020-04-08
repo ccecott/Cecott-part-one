@@ -85,9 +85,12 @@ header {
   }
   @media screen and (min-width: 768px) {
     body {
-        font-weight: 20px;
-        
+      font-weight: 20px;
+  
     }
+
+
+
     header {
       display: flex;
       justify-content: space-between;
@@ -97,12 +100,13 @@ header {
     ul {
         display: flex;
         flex-direction: row;
-        margin-top: 40px;
+        
     }
     .primary-nav li {
       display: flex;
       flex-direction: row;
       padding: 0px 10px;
+      margin-top: 20px;;
     }
     a {
     display: flex;
@@ -110,11 +114,16 @@ header {
     }
     button.contact {
         width: auto;
+        
     }
     main {
         margin-top: 170px;
     }
     
+    li {
+      align-items:center;
+    }
+
     img {
         display: block;
         max-width: 40%;
@@ -124,6 +133,8 @@ header {
         margin-top: -140px;
         margin-right: 70px;
     }
+
+   
     
     button.learn {
         width: auto;

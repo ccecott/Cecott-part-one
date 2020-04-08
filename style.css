@@ -1,0 +1,133 @@
+* {
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header {
+    background-color: #F2F2F2;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+ h1 {
+     color: #20a8b4;
+     padding-top: 30px;
+     margin-left: 30px;
+}
+ 
+  
+  ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    
+    
+  }
+  .primary-nav li {
+    padding: 7px 0px;
+
+}
+  
+  li {
+    list-style-type: none;
+    
+  }
+  
+  a {
+   text-decoration: none;
+    color: #000;
+    
+  }
+  a:hover {
+    color: #ff5c0f;
+  }
+  button.contact {
+      background-color: #20a8b4;
+      color: #fff;
+      padding: 12px;
+      border-radius: 10px;
+      width: 100%;
+  }
+  button.contact:hover {
+      background-color: #ff5c0f;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-left: 15px;
+  }
+  
+  img {
+      display: none;
+  }
+  
+  button.learn {
+      background-color: #20a8b4;
+      color: #fff;
+      padding: 12px;
+      border-radius: 10px;
+      width: 100%;
+      
+  }
+  button.learn:hover {
+      background-color: #ff5c0f;
+  }
+  @media screen and (min-width: 768px) {
+    body {
+        font-weight: 20px;
+        
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    .primary-nav li {
+      display: flex;
+      flex-direction: row;
+      padding: 0px 10px;
+    }
+    a {
+    display: flex;
+    justify-content: space-between;
+    }
+    button.contact {
+        width: auto;
+    }
+    main {
+        margin-top: 170px;
+    }
+    
+    img {
+        display: block;
+        max-width: 40%;
+        float: right;
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+        margin-top: -140px;
+        margin-right: 70px;
+    }
+    
+    button.learn {
+        width: auto;
+    }
+  }
+  
+  
